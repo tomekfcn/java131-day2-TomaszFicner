@@ -1,8 +1,10 @@
 package sweatBloodAndTears;
 
+
+
 public class WashingMachine {
 
-    int loathWeight; //max 9kg
+    public int Temp = 30;
     int programType; //1 - standard 2 - fast 3 - eco
 
     void start() {
