@@ -9,7 +9,7 @@ public class MainWM {
         Load load = new Load();
 
         if (load.weightSum() > 9) {
-            System.out.println("To much clothes in washing machine");
+            System.out.println("To many clothes in the washing machine");
             load.clothRemove();
         } else
 
