@@ -1,8 +1,8 @@
 package ex7;
 
-public class MainGun {
 
-    public class Main {
+
+    public class MainGun {
         public static void main(String[] args) {
             Gun gun = new Gun(6);
             checkIfGunLoaded(gun);
@@ -18,7 +18,7 @@ public class MainGun {
             System.out.println("Broń naładowana:" + gun.isLoaded());
         }
     }
-}
+
 
 
 
